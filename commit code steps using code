@@ -1,0 +1,6 @@
+git add *
+git config --global user.email "claude.qin@sap.com"
+git config --global user.name "Claude Qin"
+git commit -a -m "move qcow2 file into docker image"
+git remote add origin-push https://gitbub.wdf.sap.corp/rapids/b1client.git
+git push -u origin master
